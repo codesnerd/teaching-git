@@ -34,3 +34,11 @@ git config --get user.email
 Generate SSH Keys: https://bit.ly/377fWec<br />
 Add SSH Keys to GitHub: https://bit.ly/2Inqb3s<br />
 Test Your SSH connection: https://bit.ly/2STWp8D
+
+#### VOILA! YOU ARE READY TO GO!
+
+
+# Learn Basic Git Commands:
+
+Video: https://bit.ly/33YxJCk<br />
+Notes: https://bit.ly/319cxaG

@@ -7,11 +7,21 @@ Assuming you all are using Windows 10.
 
 # Configure Git
 
+Open Git Bash and type the following commands to configure it:
 ```
 git config --global user.name "Your Name"
 ```
+Example:
+```
+git config --global user.name "alex"
+```
+
 ```
 git config --global user.email "yourname@example.com"
+```
+Example:
+```
+git config --global user.email "alex@gmail.com"
 ```
 
 GitHub recently changed the default branch on new repositories from master to main, change the default branch for Git using this command:
@@ -31,19 +41,19 @@ git config --get user.email
 
 # Generate and Add SSH Keys to GitHub
 
-Generate SSH Keys: https://bit.ly/377fWec<br />
-Add SSH Keys to GitHub: https://bit.ly/2Inqb3s<br />
-Test Your SSH connection: https://bit.ly/2STWp8D
+1. Generate SSH Keys: https://bit.ly/377fWec
+2. Add SSH Keys to GitHub: https://bit.ly/2Inqb3s
+3. Test Your SSH connection: https://bit.ly/2STWp8D
 
 #### VOILA! YOU ARE READY TO GO!
 
-# Learn Basic Git Commands:
+# Learn Basic Git Commands
 
 Video: https://bit.ly/33YxJCk<br />
 Notes: https://bit.ly/319cxaG
 
 
-# Learn Basics of GitHub:
+# Learn Basics of GitHub
 
 Video: https://bit.ly/3iSDllK<br />
 Notes: https://bit.ly/3dtmqVM
@@ -61,7 +71,7 @@ These are just basic and beginner resources. If you have done the above mentione
 
 Without learning these concepts, it would be extremely hard for us to work smoothly on our FYP.
 
-# Little Project:
+# Little Project
 
 Doing this small activity will give you a hands-on experience of the things you learned
 and help cement your knowledge.

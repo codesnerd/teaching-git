@@ -50,7 +50,7 @@ Notes: https://bit.ly/3dtmqVM
 
 # What's Next?
 
-These are just basic and beginner resources. If you done the above mentioned work well enough, you are ready to dive deep into the concepts AND also learn some other VERY important concepts:
+These are just basic and beginner resources. If you have done the above mentioned work well enough, you are ready to dive deep into the concepts AND also learn some other VERY important concepts:
 
 1. Cloning a repo
 2. Forking a repo 
@@ -66,9 +66,9 @@ Without learning these concepts, it would be extremely hard for us to work smoot
 Doing this small activity will give you a hands-on experience of the things you learned
 and help cement your knowledge.
 
-1. Fork this very repo
-2. Clone it on your local machine
-3. Edit README, add a new line and then write, "<Your_Name>: I did it!"
+1. Fork this very repo.
+2. Clone it on your local machine.
+3. Edit README, add a new line and then write, "<Your_Name>: I did it!".
 4. Commit the changes to your local repo.
 5. Push the code to your remote repo (that you forked above).
 6. Send a pull request to me so I can accept your changes in this original repo.

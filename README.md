@@ -28,3 +28,9 @@ git config --get user.name
 ```
 git config --get user.email
 ```
+
+# Generate and Add SSH Keys to GitHub
+
+Generate SSH Keys: https://bit.ly/377fWec<br />
+Add SSH Keys to GitHub: https://bit.ly/2Inqb3s<br />
+Test Your SSH connection: https://bit.ly/2STWp8D

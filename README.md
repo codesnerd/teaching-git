@@ -7,21 +7,12 @@ Assuming you all are using Windows 10.
 
 # Configure Git
 
-Open Git Bash and type the following commands to configure it:
+Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
 ```
 git config --global user.name "Your Name"
 ```
-Example:
-```
-git config --global user.name "alex"
-```
-
 ```
 git config --global user.email "yourname@example.com"
-```
-Example:
-```
-git config --global user.email "alex@gmail.com"
 ```
 
 GitHub recently changed the default branch on new repositories from master to main, change the default branch for Git using this command:

@@ -42,3 +42,9 @@ Test Your SSH connection: https://bit.ly/2STWp8D
 
 Video: https://bit.ly/33YxJCk<br />
 Notes: https://bit.ly/319cxaG
+
+
+# Learn Basics of GitHub:
+
+Video: https://bit.ly/3iSDllK<br />
+Notes: https://bit.ly/3dtmqVM

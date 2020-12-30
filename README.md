@@ -62,7 +62,7 @@ These are just basic and beginner resources. If you have done the above mentione
 
 Without learning these concepts, it would be extremely hard for us to work smoothly on our FYP.
 
-# Little Project
+# Mini Project
 
 Doing this small activity will give you a hands-on experience of the things you learned
 and help cement your knowledge.

@@ -62,8 +62,7 @@ After learning the basic commands, dive deep into the following:
 
 # Mini Project
 
-Doing this small activity will give you a hands-on experience of the things you learned
-and help cement your knowledge.
+Doing this small activity will give you a hands-on experience and help cement your knowledge:
 
 1. Fork this very repo.
 2. Clone it on your local machine.

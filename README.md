@@ -60,7 +60,7 @@ After learning the basic commands, dive deep into the following:
 5. Merge Conflicts
 6. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
 
-# Mini Project
+# Activity
 
 Doing this small activity will give you a hands-on experience and help cement your knowledge:
 

@@ -51,7 +51,7 @@ Notes: https://bit.ly/3dtmqVM
 
 # What's Next?
 
-These are just basic and beginner resources. If you have done the above mentioned work well enough, you are ready to dive deep into the concepts AND also learn some other VERY important concepts:
+After learning the basic commands, dive deep into the following:
 
 1. Cloning a repo
 2. Forking a repo 
@@ -60,8 +60,6 @@ These are just basic and beginner resources. If you have done the above mentione
 5. Merge Conflicts
 6. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
 
-Without learning these concepts, it would be extremely hard for us to work smoothly on our FYP.
-
 # Mini Project
 
 Doing this small activity will give you a hands-on experience of the things you learned
@@ -69,7 +67,7 @@ and help cement your knowledge.
 
 1. Fork this very repo.
 2. Clone it on your local machine.
-3. Edit README, add a new line and then write, "<Your_Name>: I did it!".
+3. Edit README, add a new line and write, "<Your_Name>: I did it!".
 4. Commit the changes to your local repo.
-5. Push the code to your remote repo (that you forked above).
+5. Push the code to your remote repo (the forked one).
 6. Send a pull request to me so I can accept your changes in this original repo.

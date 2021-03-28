@@ -41,7 +41,7 @@ git config --get user.email
 # Learn Basic Git Commands
 
 Video: https://bit.ly/33YxJCk<br />
-Notes: https://bit.ly/319cxaG
+Notes: https://bit.ly/3w5fWFt
 
 
 # Learn Basics of GitHub

@@ -70,3 +70,7 @@ Doing this small activity will give you a hands-on experience and help cement yo
 4. Commit the changes to your local repo.
 5. Push the code to your remote repo (the forked one).
 6. Send a pull request to me so I can accept your changes in this original repo.
+
+---
+**Note:**
+I have included GitHub Education's Git cheat sheet in the repo that contains some commonly used git commands. View it here: https://bit.ly/3o7bylX.

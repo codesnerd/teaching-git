@@ -73,4 +73,4 @@ Doing this small activity will give you a hands-on experience and help cement yo
 
 ---
 **Note:**
-I have included GitHub Education's Git cheat sheet in the repo that contains some commonly used git commands. View it here: https://bit.ly/3o7bylX.
+I have included GitHub Education's Git cheat sheet in the repo that contains some commonly used git commands. View it here: [git-cheatsheet.pdf](git-cheatsheet.pdf)

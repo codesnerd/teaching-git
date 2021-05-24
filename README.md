@@ -56,9 +56,10 @@ After learning the basic commands, dive deep into the following:
 1. Cloning a repo
 2. Forking a repo 
 3. Difference between cloning and forking
-4. Branches
-5. Merge Conflicts
-6. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
+4. Difference between origin and upstream
+5. Branches
+6. Merge Conflicts
+7. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
 
 # Activity
 
@@ -66,10 +67,11 @@ Doing this small activity will give you a hands-on experience and help cement yo
 
 1. Fork this very repo.
 2. Clone it on your local machine.
-3. Edit README, add a new line and write, "<Your_Name>: I did it!".
-4. Commit the changes to your local repo.
-5. Push the code to your remote repo (the forked one).
-6. Send a pull request to me so I can accept your changes in this original repo.
+3. Create a new branch <Your_Name>.
+4. Edit README, add a new line and write, "<Your_Name>: I did it!".
+5. Commit the changes to your local repo.
+6. Push the code to your remote repo (the forked one).
+7. Send a pull request to me so I can accept your changes in this original repo.
 
 ---
 **Note:**

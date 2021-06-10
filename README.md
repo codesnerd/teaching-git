@@ -73,6 +73,14 @@ Doing this small activity will give you a hands-on experience and help cement yo
 6. Push the code to your remote repo (the forked one).
 7. Send a pull request to me so I can accept your changes in this original repo.
 
----
+\
 **Note:**
 I have included GitHub Education's Git cheat sheet in the repo that contains some commonly used git commands. You can view it here: [git-cheatsheet.pdf](git-cheatsheet.pdf).
+
+---
+
+### If you found the repo useful, do support it by giving a star. ⭐
+## 🖋 Author
+Follow my GitHub profile to stay updated with my latest projects:
+
+[![Follow codesnerd on GitHub](https://img.shields.io/badge/Connect-codesnerd-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/codesnerd)

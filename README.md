@@ -79,7 +79,7 @@ I have included GitHub Education's Git cheat sheet in the repo that contains som
 
 ---
 
-### If you found the repo useful, do support it by giving a star. ⭐
+### If you find the repo useful, do support it by giving a star. ⭐
 ## 🖋 Author
 Follow my GitHub profile to stay updated with my latest projects:
 

@@ -84,3 +84,6 @@ I have included GitHub Education's Git cheat sheet in the repo that contains som
 Follow my GitHub profile to stay updated with my latest projects:
 
 [![Follow codesnerd on GitHub](https://img.shields.io/badge/Connect-codesnerd-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/codesnerd)
+
+## 👍 Acknowledgements
+* Video and notes by [Colt Steele](https://www.youtube.com/c/ColtSteeleCode).

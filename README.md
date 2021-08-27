@@ -46,8 +46,8 @@ Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-Git-ac396a069
 
 # Learn Basics of GitHub
 
-Video: [Learn Github in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)<br />
-Notes: https://bit.ly/3dtmqVM
+Video: [Learn GitHub in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)<br />
+Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7)
 
 # What's Next?
 

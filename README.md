@@ -32,7 +32,7 @@ git config --get user.email
 
 # Generate and Add SSH Keys to GitHub
 
-1. Generate SSH Keys: https://bit.ly/377fWec
+1. Generate SSH Keys: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 2. Add SSH Keys to GitHub: https://bit.ly/2Inqb3s
 3. Test Your SSH connection: https://bit.ly/2STWp8D
 

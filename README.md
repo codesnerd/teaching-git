@@ -40,13 +40,13 @@ git config --get user.email
 
 # Learn Basic Git Commands
 
-Video: [Learn Git In 15 Minutes by Colt Steele](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
-Notes: [Video Notes by Colt Steele](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
+Video: [Learn Git In 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
+Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
 
 
 # Learn Basics of GitHub
 
-Video: https://bit.ly/3iSDllK<br />
+Video: [Learn Github in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)<br />
 Notes: https://bit.ly/3dtmqVM
 
 # What's Next?

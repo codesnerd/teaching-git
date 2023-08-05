@@ -11,9 +11,9 @@
 
 ## What is [Git](https://git-scm.com/)
 
-Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). In other words, it's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time. This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
+Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). It's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the files, at any given point in time. This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
 
-Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing how to use Git is one of the most important skills for any developer nowadays - and it's definitely a great addition to your resume!
+Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing **how to use Git is one of the most important skills for any Software Developer nowadays** - and it's definitely a great addition to your resume!
 
 ### Features of git
 
@@ -28,39 +28,85 @@ The Repository makes it effortless for everyone to contribute their parts and me
 
 5. **Backup:** Like a powerful shield, Git Repository protects your work from getting lost or damaged. Even if your computer misbehaves, your projects are securely stored and can be accessed from another computer.
 
-
 ### What is a Repository
 
 Imagine a repository as a special place that stores all your creative projects, just like a treasure chest for your computer code and files. In the digital realm, a Git repository is a magical box that keeps track of every change you make to your code and files over time.
 
 The Repository is like your personal storage area in the digital world. It helps you keep track of your school projects, artworks, or any other digital wonders you create. Instead of saving your work scattered all over your computer, you place everything inside this repository.
 
-## Commit
+When working with Git, it's important to be familiar with the term **repository**. A Git repository is a container for a project that is tracked by Git.  
 
-commit is like page in history book that has its own unique id and can never be changed
+We can single out two major types of Git repositories:
 
-`git add` will stage the files that will be part of my commit
+- **Local repository** - an isolated repository stored on your own computer, where you can work on the local version of your project.
+- **Remote repository** - generally stored outside of your isolated local system, usually on a remote server. It's especially useful when working in teams - this is the place where you can share your project code, see other people's code and integrate it into your local version of the project, and also push your changes to the remote repository.
 
-takes a snapshot of current code
-tip: make small commits
+In this video, we'll only work with local repositories.
 
 ### What is CLI Tools
 
-Git is primarily used via the command-line interface, which we can access with our system terminals.
+Git is primarily used via the command-line interface, which we can access with our system terminals. all commands will be ran on the root of the working directory.
+
+## Staging files
+
+We can use the **git add** command to add our files to the staging area, which allows them to be tracked.
+
+We can add a specific file to the staging area with the following command:
+
+```bash
+git add file.js
+```
+
+To add multiple files, we can do this:
+
+```bash
+git add file.js file2.js file3.js
+```
+
+Instead of having to add the files individually, we can also add all the files inside the project folder to the staging area:
+
+```bash
+git add .
+```
+
+By default, this adds **all the files and folders** inside the project folder to the staging area, from where they are ready to be committed and tracked.
+
+## Commits
+
+`git add` will stage the files that will be part of my commit
+
+tip: make small commits
+
+A **commit** is a snapshot of our code at a particular time, which we are saving to the commit history of our repository. Commit is like page in history book that has its own unique id and can never be changed.
+
+After adding all the files that we want to track to the staging area with the **`git add`** command, we are ready to make a commit.
+
+To commit the files from the staging area, we use the following command:
+
+```bash
+git commit -m "Commit message"
+```
+
+Inside the quotes, we should write a **commit message** which is used to identify it in the commit history.
+
+The commit message should be a descriptive summary of the changes that you are committing to the repository.
+
+After executing that command, you will get the technical details about the commit printed in the terminal. And that's basically it, you have successfully made a commit in your project!
 
 ## Get Started with Git
 
 1. Install Git from the [official website](https://git-scm.com/downloads).
+1. If everything went well, it should return the Git version that is installed on your computer.
 1. If you don't have already Sign up for an account at [github.com](https://github.com/signup).
-1. Once inside, you'll find your own Repository
+1. Once inside, you'll find your own Repositories.
 1. Create a new project or artwork by simply clicking the `New` button and giving it a unique name.
-1. publc share with world
+1. To initialize a local repository and start tracking your project, in terminal and navigate to the main folder of your project, then type `git init`. This command will generate a hidden `.git` folder in your project, where Git stores all internal tracking data for the current repository. We don't need to look and change in .git.
+1. Keep your repos public and share your code with world.
 1. Add your digital creations to the repository – your code, documents, images, or anything you create!
-
 
 ## Configure Git
 
-Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
+Open Terminal and type the commands given below to configure it. Replace the values inside the quotes with your name and email address.
 
 ```bash
 git config --global user.name "Your Name"
@@ -90,11 +136,10 @@ YOU ARE READY TO GO!
 
 ### Basic Commands
 
+To copy a github repo to your computer
 ```bash
 git clone <link>
 ```
-
-(one time only)
 
 ```bash
 git add .
@@ -104,8 +149,21 @@ git add .
 git commit -m "my message"
 ```
 
+To send changes to your remote repository
 ```bash
-git push
+git push origin main
+```
+
+If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
+
+```bash
+git remote add origin <link of your repo>
+```
+
+To update your local repository to the newest commit, execute
+
+```bash
+git pull
 ```
 
 ## Important Points to Remember
@@ -124,35 +182,32 @@ git push
 | 2.  | [Git - the simple guide Article](https://rogerdudler.github.io/git-guide/)                                                                |
 | 3.  | [GitHub Education's cheat sheet for commonly used git commands.](./git-cheatsheet.pdf)                                                    |
 | 4.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
-| 5.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
+| 5.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)   |
+|6.|[Fireship teaching Git in 12min](https://youtu.be/HkdAHXoRtos)|
 
 ### What's Next?
 
 After learning the basic commands, dive deep into the following:
 
 1. Cloning a repo
-2. Forking a repo
-3. Difference between cloning and forking
-4. Difference between origin and upstream
-5. Branches
-6. Merge Conflicts
-7. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
+1. Forking a repo
+1. Difference between cloning and forking
+1. Difference between origin and upstream
+1. Branches
+1. Merge Conflicts
+1. Pull Requests
 
 ### Activity
 
 Doing this small activity will give you a hands-on experience and help cement your knowledge:
 
 1. Fork this very repo.
-2. Clone it on your local machine.
-3. Create a new branch <Your_Name>.
-4. Edit README, add a new line and write, "<Your_Name>: I did it!".
-5. Commit the changes to your local repo.
-6. Push the code to your remote repo (the forked one).
-7. Send a pull request to me so I can accept your changes in this original repo.
+1. Clone it on your local machine.
+1. Create a new branch <Your_Name>.
+1. Edit README, add a new line and write, "<Your_Name>: I did it!".
+1. Commit the changes to your local repo.
+1. Push the code to your remote repo (the forked one).
+1. Send a pull request to me so I can accept your changes in this original repo.
 
 ---
-
-### If you find the repo useful, do support it by giving a star. ⭐
-
-Author :
-[![Follow codesnerd on GitHub](https://img.shields.io/badge/Connect-codesnerd-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/codesnerd)
+<h3 align="center">Show some ❤️ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> this repository</h3>

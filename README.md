@@ -9,7 +9,10 @@
 - [What is Git](#what-is-git)
 - [What is GitHub?](#what-is-github)
 - [Features of Git and Github](#features-of-git-and-github)
-- [What is a Repository]()
+- [What is a Repository](#what-is-a-repository)
+- [What are CLI Tools](#what-is-cli-tools)
+- [Staging files](#staging-files)
+- [Commits](#commits)
 
 ## What is [Git](https://git-scm.com/)
 
@@ -53,7 +56,7 @@ We can single out two major types of Git repositories:
 - **Local repository** - an isolated folder stored on your own computer, where you can work on the local version of your project.
 - **Remote repository** - generally stored outside of your isolated local system, usually on a online server i.e [github.com](https://github.com). It's especially useful when working in teams, this is the place where you can share your project code, see other people's code and integrate it into your local version of the project, and also push your changes to the remote repository.
 
-### What is CLI Tools
+### What are CLI Tools
 
 CLI (command-line interface) allows you to interact with a computer using text-based commands instead of relying on Graphical user interfaces (GUIs), the CLI provides a powerful and efficient way to perform various tasks and operations directly from the Terminal also called shell. All terminals work almost similarly, CLI tools offer efficiency, flexibility, and scripting capabilities, making them powerful resources for developers, system administrators, and tech-savvy users.
 

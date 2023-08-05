@@ -1,13 +1,25 @@
-<h1 align="center">Get Started with Git</h1>
+<h1 align="center">Git and GitHub</h1>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=git,github" />
 </p>
 
+## Index
+
+- [What is Git]()
+
+### What is [Git](https://git-scm.com/)
+
+Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). In other words, it's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time.  This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
+
+Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing how to use Git is one of the most important skills for any developer nowadays - and it's definitely a great addition to your resume!
+
+### Get Started with Git
+
 1. Install Git from the [official website](https://git-scm.com/downloads).
 1. Create a GitHub account, if you don't have one already.
 
-## Configure Git
+### Configure Git
 
 Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
 
@@ -37,17 +49,6 @@ git config --get user.email
 
 YOU ARE READY TO GO!
 
-## Learn Basic Git Commands
-
-Video: [Learn Git In 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
-Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
-
-## Learn Basics of GitHub
-
-Video: [Learn GitHub in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)
-
-Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7)
-
 ```bash
 git clone <link>
 ```
@@ -66,18 +67,24 @@ git commit -m "my message"
 git push
 ```
 
-1. Repository is just a folder in Git.
+## Precaution
 
+1. Repository is just a folder in Git.
 1. Always make a repo before starting to code.
 1. Keep committing code after finishing ever feature.
 1. Keep you commit messages relevant to your feature.
 1. dfd
 
-## [Complete Git Course (Basic to Advance) by Sir Zeeshan](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF)
+## Resources
 
-## [Article](https://rogerdudler.github.io/git-guide/)
+|     |  |
+| --- | ---------------------------- |
+| 1.  | [Complete Git Course (Basic to Advance) by Sir Zeeshan in Urdu](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF) |
+| 2.  | [Git - the simple guide Article](https://rogerdudler.github.io/git-guide/)                                                                |
+| 3.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
+| 4.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
 
-# What's Next?
+### What's Next?
 
 After learning the basic commands, dive deep into the following:
 
@@ -89,7 +96,7 @@ After learning the basic commands, dive deep into the following:
 6. Merge Conflicts
 7. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
 
-# Activity
+### Activity
 
 Doing this small activity will give you a hands-on experience and help cement your knowledge:
 

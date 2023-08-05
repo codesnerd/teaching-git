@@ -7,6 +7,7 @@
 ## Index
 
 - [What is Git]()
+- [What is a Repository]()
 
 ## What is [Git](https://git-scm.com/)
 
@@ -14,10 +15,48 @@ Git is a [distributed](https://git-scm.com/about/distributed) version control sy
 
 Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing how to use Git is one of the most important skills for any developer nowadays - and it's definitely a great addition to your resume!
 
+### Features of git
+
+1. **Safekeeping:** The Repository ensures the safety of your creations, acting like a powerful shield that protects your important treasures.
+
+2. **Version Control:** Git keeps a record of every change you make to your project,so it has the ability to remember every change you make to your creations. It's like time-travel! So,if you make a mistake you can easily go back to a previous version if you need to.
+
+3. **Sharing with Friends:** Invite your friends into the Repository, and they can marvel at your creations, give suggestions, or even add their own touches to your works.
+
+4. **Collaboration:** . Multiple people can work together on the same project simultaneously, and Git helps merge everyone's work seamlessly.
+The Repository makes it effortless for everyone to contribute their parts and merge them seamlessly.
+
+5. **Backup:** Like a powerful shield, Git Repository protects your work from getting lost or damaged. Even if your computer misbehaves, your projects are securely stored and can be accessed from another computer.
+
+
+### What is a Repository
+
+Imagine a repository as a special place that stores all your creative projects, just like a treasure chest for your computer code and files. In the digital realm, a Git repository is a magical box that keeps track of every change you make to your code and files over time.
+
+The Repository is like your personal storage area in the digital world. It helps you keep track of your school projects, artworks, or any other digital wonders you create. Instead of saving your work scattered all over your computer, you place everything inside this repository.
+
+## Commit
+
+commit is like page in history book that has its own unique id and can never be changed
+
+`git add` will stage the files that will be part of my commit
+
+takes a snapshot of current code
+tip: make small commits
+
+### What is CLI Tools
+
+Git is primarily used via the command-line interface, which we can access with our system terminals.
+
 ## Get Started with Git
 
 1. Install Git from the [official website](https://git-scm.com/downloads).
-1. Create a GitHub account, if you don't have one already.
+1. If you don't have already Sign up for an account at [github.com](https://github.com/signup).
+1. Once inside, you'll find your own Repository
+1. Create a new project or artwork by simply clicking the `New` button and giving it a unique name.
+1. publc share with world
+1. Add your digital creations to the repository – your code, documents, images, or anything you create!
+
 
 ## Configure Git
 

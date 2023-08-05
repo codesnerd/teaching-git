@@ -6,7 +6,9 @@
 
 ## Index
 
-- [What is Git]()
+- [What is Git](#what-is-git)
+- [What is GitHub?](#what-is-github)
+- [Features of Git and Github](#features-of-git-and-github)
 - [What is a Repository]()
 
 ## What is [Git](https://git-scm.com/)

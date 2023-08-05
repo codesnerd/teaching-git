@@ -1,7 +1,11 @@
-# Get Started with Git
+<h1 align="center">Get Started with Git</h1>
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=git,github" />
+</p>
 
 1. Install Git from the [official website](https://git-scm.com/downloads).
-2. Create a GitHub account, if you don't have one already.
+1. Create a GitHub account, if you don't have one already.
 
 ## Configure Git
 
@@ -38,7 +42,6 @@ YOU ARE READY TO GO!
 Video: [Learn Git In 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
 Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
 
-
 ## Learn Basics of GitHub
 
 Video: [Learn GitHub in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)
@@ -70,15 +73,16 @@ git push
 1. Keep you commit messages relevant to your feature.
 1. dfd
 
-## [Complete Git Course (Basic to Advance)](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF)
+## [Complete Git Course (Basic to Advance) by Sir Zeeshan](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF)
 
+## [Article](https://rogerdudler.github.io/git-guide/)
 
 # What's Next?
 
 After learning the basic commands, dive deep into the following:
 
 1. Cloning a repo
-2. Forking a repo 
+2. Forking a repo
 3. Difference between cloning and forking
 4. Difference between origin and upstream
 5. Branches
@@ -105,5 +109,5 @@ I have included GitHub Education's Git cheat sheet in the repo that contains som
 
 ### If you find the repo useful, do support it by giving a star. ⭐
 
-Author : 
+Author :
 [![Follow codesnerd on GitHub](https://img.shields.io/badge/Connect-codesnerd-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/codesnerd)

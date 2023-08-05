@@ -11,22 +11,19 @@
 
 ## What is [Git](https://git-scm.com/)
 
-Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). It's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the files, at any given point in time. This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
+Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). It's a system that keeps a record of changes to our project files over time. It enables us to record project changes and go back to a specific version of the files, at any given point in time. This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
 
-Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing **how to use Git is one of the most important skills for any Software Developer nowadays** - and it's definitely a great addition to your resume!
+Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing **`how to use Git is one of the most important skills for any Software Developer nowadays`** - and it's definitely a great addition to your resume!
 
-### Features of git
+### Features of Git and Github
 
-1. **Safekeeping:** The Repository ensures the safety of your creations, acting like a powerful shield that protects your important treasures.
+1. **Version Control:** Git keeps a record of every change you make to your project, so it has the ability to remember every change you make to your code. It's like time-travel! So, if you make a mistake you can easily go back to a previous version if you need to.
 
-2. **Version Control:** Git keeps a record of every change you make to your project,so it has the ability to remember every change you make to your creations. It's like time-travel! So,if you make a mistake you can easily go back to a previous version if you need to.
+1. **Sharing with Friends:** You can share your code with your friends or anyone around the world, and they can marvel at your creations, give suggestions, take inspiration, or even add their own touches to your works.
 
-3. **Sharing with Friends:** Invite your friends into the Repository, and they can marvel at your creations, give suggestions, or even add their own touches to your works.
+1. **Collaboration:** . Multiple people can work together on the same project simultaneously, and Git helps merge everyone's work seamlessly and makes it effortless for everyone to contribute their parts.
 
-4. **Collaboration:** . Multiple people can work together on the same project simultaneously, and Git helps merge everyone's work seamlessly.
-The Repository makes it effortless for everyone to contribute their parts and merge them seamlessly.
-
-5. **Backup:** Like a powerful shield, Git Repository protects your work from getting lost or damaged. Even if your computer misbehaves, your projects are securely stored and can be accessed from another computer.
+1. **Backup:** Git Repository ensures safety and protects your work from getting lost or damaged. Even if your computer misbehaves, your projects are securely stored and can be accessed from another computer.
 
 ### What is a Repository
 
@@ -34,7 +31,7 @@ Imagine a repository as a special place that stores all your creative projects, 
 
 The Repository is like your personal storage area in the digital world. It helps you keep track of your school projects, artworks, or any other digital wonders you create. Instead of saving your work scattered all over your computer, you place everything inside this repository.
 
-When working with Git, it's important to be familiar with the term **repository**. A Git repository is a container for a project that is tracked by Git.  
+When working with Git, it's important to be familiar with the term **repository**. A Git repository is a container for a project that is tracked by Git.
 
 We can single out two major types of Git repositories:
 
@@ -137,6 +134,7 @@ YOU ARE READY TO GO!
 ### Basic Commands
 
 To copy a github repo to your computer
+
 ```bash
 git clone <link>
 ```
@@ -150,6 +148,7 @@ git commit -m "my message"
 ```
 
 To send changes to your remote repository
+
 ```bash
 git push origin main
 ```
@@ -182,8 +181,8 @@ git pull
 | 2.  | [Git - the simple guide Article](https://rogerdudler.github.io/git-guide/)                                                                |
 | 3.  | [GitHub Education's cheat sheet for commonly used git commands.](./git-cheatsheet.pdf)                                                    |
 | 4.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
-| 5.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)   |
-|6.|[Fireship teaching Git in 12min](https://youtu.be/HkdAHXoRtos)|
+| 5.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
+| 6.  | [Fireship teaching Git in 12min](https://youtu.be/HkdAHXoRtos)                                                                            |
 
 ### What's Next?
 
@@ -210,4 +209,5 @@ Doing this small activity will give you a hands-on experience and help cement yo
 1. Send a pull request to me so I can accept your changes in this original repo.
 
 ---
+
 <h3 align="center">Show some ❤️ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> this repository</h3>

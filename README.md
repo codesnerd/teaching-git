@@ -13,6 +13,12 @@
 - [What are CLI Tools](#what-is-cli-tools)
 - [Staging files](#staging-files)
 - [Commits](#commits)
+- [Get Started with Git](#get-started-with-git)
+- [Configure Git](#configure-git)
+- [Basic Commands](#basic-commands)
+- [Important Points](#important-points-to-remember)
+- [other Resources](#resources)
+- [Branches](./Branches.md)
 
 ## What is [Git](https://git-scm.com/)
 
@@ -194,7 +200,6 @@ git pull
 ## [Ignoring files](https://help.github.com/en/articles/ignoring-files)
 
 To ignore files or folders that you don't want to be tracked or added to the staging area, you can create a file called `.gitignore` in your main project folder. Inside of that file, you can list all the file and folder names that you definitely do not want to track
-
 
 ## Important Points to Remember
 

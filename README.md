@@ -1,53 +1,77 @@
-Assuming you all are using Windows 10.
-
-# Get Started
+# Get Started with Git
 
 1. Install Git from the [official website](https://git-scm.com/downloads).
 2. Create a GitHub account, if you don't have one already.
 
-# Configure Git
+## Configure Git
 
 Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
-```
+
+```bash
 git config --global user.name "Your Name"
 ```
-```
+
+```bash
 git config --global user.email "yourname@example.com"
 ```
 
 GitHub recently changed the default branch on new repositories from master to main, change the default branch for Git using this command:
 
-```
+```bash
 git config --global init.defaultBranch main
 ```
 
 To verify things are working properly, enter these commands and verify that the output matches your name and email address:
 
-```
+```bash
 git config --get user.name
 ```
-```
+
+```bash
 git config --get user.email
 ```
 
-# Generate and Add SSH Keys to GitHub
+YOU ARE READY TO GO!
 
-1. Generate SSH Keys: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-2. Add SSH Keys to GitHub: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-3. Test Your SSH connection: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection)
-
-#### VOILA! YOU ARE READY TO GO!
-
-# Learn Basic Git Commands
+## Learn Basic Git Commands
 
 Video: [Learn Git In 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
 Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
 
 
-# Learn Basics of GitHub
+## Learn Basics of GitHub
 
-Video: [Learn GitHub in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)<br />
+Video: [Learn GitHub in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)
+
 Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7)
+
+```bash
+git clone <link>
+```
+
+(one time only)
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "my message"
+```
+
+```bash
+git push
+```
+
+1. Repository is just a folder in Git.
+
+1. Always make a repo before starting to code.
+1. Keep committing code after finishing ever feature.
+1. Keep you commit messages relevant to your feature.
+1. dfd
+
+## [Complete Git Course (Basic to Advance)](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF)
+
 
 # What's Next?
 
@@ -80,10 +104,6 @@ I have included GitHub Education's Git cheat sheet in the repo that contains som
 ---
 
 ### If you find the repo useful, do support it by giving a star. ⭐
-## 🖋 Author
-Follow my GitHub profile to stay updated with my latest projects:
 
+Author : 
 [![Follow codesnerd on GitHub](https://img.shields.io/badge/Connect-codesnerd-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/codesnerd)
-
-## 👍 Acknowledgements
-* Videos and notes by [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)

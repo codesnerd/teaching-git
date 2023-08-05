@@ -8,18 +8,18 @@
 
 - [What is Git]()
 
-### What is [Git](https://git-scm.com/)
+## What is [Git](https://git-scm.com/)
 
-Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). In other words, it's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time.  This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
+Git is a [distributed](https://git-scm.com/about/distributed) version control system (VCS). In other words, it's a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time. This system can be used by many people to efficiently work together and **collaborate on team projects**, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.
 
 Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing how to use Git is one of the most important skills for any developer nowadays - and it's definitely a great addition to your resume!
 
-### Get Started with Git
+## Get Started with Git
 
 1. Install Git from the [official website](https://git-scm.com/downloads).
 1. Create a GitHub account, if you don't have one already.
 
-### Configure Git
+## Configure Git
 
 Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
 
@@ -49,6 +49,8 @@ git config --get user.email
 
 YOU ARE READY TO GO!
 
+### Basic Commands
+
 ```bash
 git clone <link>
 ```
@@ -67,22 +69,23 @@ git commit -m "my message"
 git push
 ```
 
-## Precaution
+## Important Points to Remember
 
 1. Repository is just a folder in Git.
 1. Always make a repo before starting to code.
 1. Keep committing code after finishing ever feature.
 1. Keep you commit messages relevant to your feature.
-1. dfd
+1. Make a Pull Request after your work is done.
 
 ## Resources
 
-|     |  |
-| --- | ---------------------------- |
+|     |                                                                                                                                           |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.  | [Complete Git Course (Basic to Advance) by Sir Zeeshan in Urdu](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF) |
 | 2.  | [Git - the simple guide Article](https://rogerdudler.github.io/git-guide/)                                                                |
-| 3.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
-| 4.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
+| 3.  | [GitHub Education's cheat sheet for commonly used git commands.](./git-cheatsheet.pdf)                                                    |
+| 4.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
+| 5.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
 
 ### What's Next?
 
@@ -107,10 +110,6 @@ Doing this small activity will give you a hands-on experience and help cement yo
 5. Commit the changes to your local repo.
 6. Push the code to your remote repo (the forked one).
 7. Send a pull request to me so I can accept your changes in this original repo.
-
-\
-**Note:**
-I have included GitHub Education's Git cheat sheet in the repo that contains some commonly used git commands. You can view it here: [git-cheatsheet.pdf](git-cheatsheet.pdf).
 
 ---
 

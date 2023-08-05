@@ -15,6 +15,21 @@ Git is a [distributed](https://git-scm.com/about/distributed) version control sy
 
 Basically, it's a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing **`how to use Git is one of the most important skills for any Software Developer nowadays`** - and it's definitely a great addition to your resume!
 
+## What is [GitHub](http://github.com)?
+
+GitHub is a hosting platform for Git repositories. You can use Git on its own without Github (and other similar platforms), but it's difficult without github to collaborate or share your code with others.
+
+- **Git is the version control system, the tool that tracks changes to our files over time**
+- **Github is a hosting service for projects that use Git.**
+
+Using _GitHub_, we can upload a local project repository to a remote cloud-based GitHub repository. We can also interact with public repositories published by other developers.
+
+ℹ️ GitHub could even be looked at as a social networking website for developers. Users can follow each other, give ratings, share or fork, like code via stars, comment via issues, collaborate and communicate.
+
+GitHub allows developers to utilize, change or improve software from its repositories. Each repository contains all project files and the code history. Repositories can have multiple collaborators and can be either public or private.
+
+GitHub is also a popular way developers to publish their project portfolio online. It's an easy way to showcase skills and experience to potential employers or clients. It's an important technology to be familiar with, especially for a new developer who is just starting out.
+
 ### Features of Git and Github
 
 1. **Version Control:** Git keeps a record of every change you make to your project, so it has the ability to remember every change you make to your code. It's like time-travel! So, if you make a mistake you can easily go back to a previous version if you need to.
@@ -27,24 +42,28 @@ Basically, it's a massively popular tool for coordinating parallel work and mana
 
 ### What is a Repository
 
-Imagine a repository as a special place that stores all your creative projects, just like a treasure chest for your computer code and files. In the digital realm, a Git repository is a magical box that keeps track of every change you make to your code and files over time.
+**A Git repository is a container for a project that is tracked by Git.**
 
-The Repository is like your personal storage area in the digital world. It helps you keep track of your school projects, artworks, or any other digital wonders you create. Instead of saving your work scattered all over your computer, you place everything inside this repository.
-
-When working with Git, it's important to be familiar with the term **repository**. A Git repository is a container for a project that is tracked by Git.
+Imagine a repository as a special place that stores your creative project, just like a treasure chest for your computer code and files. Git repository is a magical box that keeps track of every change you make to your code and files over time. The Repository is like your personal storage area in the digital world. It helps you keep track of your code, artworks, or any other digital wonders you create. Instead of saving your work scattered all over your computer, you place everything inside this repository.
 
 We can single out two major types of Git repositories:
 
-- **Local repository** - an isolated repository stored on your own computer, where you can work on the local version of your project.
-- **Remote repository** - generally stored outside of your isolated local system, usually on a remote server. It's especially useful when working in teams - this is the place where you can share your project code, see other people's code and integrate it into your local version of the project, and also push your changes to the remote repository.
-
-In this video, we'll only work with local repositories.
+- **Local repository** - an isolated folder stored on your own computer, where you can work on the local version of your project.
+- **Remote repository** - generally stored outside of your isolated local system, usually on a online server i.e [github.com](https://github.com). It's especially useful when working in teams, this is the place where you can share your project code, see other people's code and integrate it into your local version of the project, and also push your changes to the remote repository.
 
 ### What is CLI Tools
 
-Git is primarily used via the command-line interface, which we can access with our system terminals. all commands will be ran on the root of the working directory.
+CLI (command-line interface) allows you to interact with a computer using text-based commands instead of relying on Graphical user interfaces (GUIs), the CLI provides a powerful and efficient way to perform various tasks and operations directly from the Terminal also called shell. All terminals work almost similarly, CLI tools offer efficiency, flexibility, and scripting capabilities, making them powerful resources for developers, system administrators, and tech-savvy users.
 
-## Staging files
+Types of terminals:
+
+- Bash
+- Command prompt or CMD
+- PowerShell
+
+Git is a CLI Tool, which we can access with our system terminals. **🔴 All commands will be ran on the root of the project source directory**.
+
+## [Staging files](https://git-scm.com/about/staging-area)
 
 We can use the **git add** command to add our files to the staging area, which allows them to be tracked.
 
@@ -89,6 +108,8 @@ Inside the quotes, we should write a **commit message** which is used to identif
 The commit message should be a descriptive summary of the changes that you are committing to the repository.
 
 After executing that command, you will get the technical details about the commit printed in the terminal. And that's basically it, you have successfully made a commit in your project!
+
+you can see Commit history on github.com
 
 ## Get Started with Git
 
@@ -164,6 +185,11 @@ To update your local repository to the newest commit, execute
 ```bash
 git pull
 ```
+
+## [Ignoring files](https://help.github.com/en/articles/ignoring-files)
+
+To ignore files or folders that you don't want to be tracked or added to the staging area, you can create a file called `.gitignore` in your main project folder. Inside of that file, you can list all the file and folder names that you definitely do not want to track
+
 
 ## Important Points to Remember
 

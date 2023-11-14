@@ -154,11 +154,7 @@ git config --global init.defaultBranch main
 To verify things are working properly, enter these commands and verify that the output matches your name and email address:
 
 ```bash
-git config --get user.name
-```
-
-```bash
-git config --get user.email
+git config --list
 ```
 
 YOU ARE READY TO GO!

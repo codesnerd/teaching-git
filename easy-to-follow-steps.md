@@ -57,17 +57,17 @@ These are easy to follow steps to push code to github. (for theory of git [visit
    ```
 
    ```bash
-   git push origin main 
+   git push origin main
    ```
 
+1. Your terminal should look like this
 
-1. Your terminal should look like this 
-    ![new repo code link button](./images/image1.png)
-    ![new repo code link button](./images/image2.png)
-    ![new repo code link button](./images/image3.png)
-    ![new repo code link button](./images/image4.png)
+   ![new repo code link button](./images/image1.png)
+   and your code should be next to `.git` folder.
 
-2. Add your digital creations to the repository – your code, documents, images, or anything you create and keep evolving!
+   ![new repo code link button](./images/image4.png)
+
+1. Add your digital creations to the repository – your code, documents, images, or anything you create and keep evolving!
 
 ## Important
 

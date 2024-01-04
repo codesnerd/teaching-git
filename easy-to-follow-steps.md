@@ -4,6 +4,8 @@ These are easy to follow steps to push code to github. (for theory of git [visit
 
 1. Install Git from the [git-scm.com/downloads](https://git-scm.com/downloads).
 
+   ![git scm website](./images/git-scm.png)
+
 1. In terminal `git --version` command should return the Git version that is installed on your computer.
 
 1. Type this in terminal with your credentials.
@@ -62,20 +64,12 @@ These are easy to follow steps to push code to github. (for theory of git [visit
 
 1. Your terminal should look like this
 
-   ![new repo code link button](./images/image1.png)
+   ![new repo code link button](./images/terminal.png)
    and your code should be next to `.git` folder.
 
-   ![new repo code link button](./images/image4.png)
+   ![new repo code link button](./images/repo.png)
 
 1. Add your digital creations to the repository – your code, documents, images, or anything you create and keep evolving!
-
-## Important points
-
-1. Repository is just a folder in Git.
-1. Always make a repo before starting to code.
-1. Keep committing code after finishing ever feature.
-1. Never close your computer without pushing code to Github.
-1. Keep you commit messages relevant to your feature.
 
 ## Common problems
 

@@ -1,7 +1,11 @@
 # Git and Github
 
-1. Install Git from the [official website](https://git-scm.com/downloads).
+These are easy to follow steps to push code to github. (for theory of git [visit this page](./README.md))
+
+1. Install Git from the [git-scm.com/downloads](https://git-scm.com/downloads).
+
 1. `git --version` command should return the Git version that is installed on your computer.
+
 1. Type this in terminal with your credentials.
 
    ```bash
@@ -11,15 +15,29 @@
    ```
 
 1. If you don't have already Sign up for an account at [github.com](https://github.com/signup).
-1. Create a new repo on github.com simply by clicking the `New` button and giving it a unique name.
-1. Keep your repos public.
+
+   (First 4 steps are only required one time)
+
+1. Create a new repo on github.com simply by clicking the `New` button and giving it a unique name or visit [github.com/new](https://github.com/new).
+
+1. Keep your repo public and leave everything as it is.
+
 1. Copy http link below green `Code` button
 
+   ![code link button](./images/code-link.png)
+
+   OR
+
+   ![new repo code link button](./images/code-link-new.png)
+
+1. Run this command in new folder
+
    ```bash
-   git clone <link>
+     git clone <paste-link-here>
    ```
 
 1. This command will generate a hidden `.git` folder in your project, where Git stores all internal tracking data for the current repository. We don't need to look and change in .git. **All files next to `.git` folder will be pushed!**
+
 1. Navigate in the Folder with
 
    ```bash
@@ -27,7 +45,8 @@
    ```
 
 1. Open VS Code with `code .` command and Create a files name `index.html`.
-1. and then add files in your project.
+
+1. Then to add files and push code run these commands in your project.
 
    ```bash
    git add .
@@ -38,10 +57,17 @@
    ```
 
    ```bash
-   git push
+   git push origin main 
    ```
 
-1. Add your digital creations to the repository – your code, documents, images, or anything you create!
+
+1. Your terminal should look like this 
+    ![new repo code link button](./images/image1.png)
+    ![new repo code link button](./images/image2.png)
+    ![new repo code link button](./images/image3.png)
+    ![new repo code link button](./images/image4.png)
+
+2. Add your digital creations to the repository – your code, documents, images, or anything you create and keep evolving!
 
 ## Important
 

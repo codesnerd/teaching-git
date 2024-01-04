@@ -4,7 +4,7 @@ These are easy to follow steps to push code to github. (for theory of git [visit
 
 1. Install Git from the [git-scm.com/downloads](https://git-scm.com/downloads).
 
-1. `git --version` command should return the Git version that is installed on your computer.
+1. In terminal `git --version` command should return the Git version that is installed on your computer.
 
 1. Type this in terminal with your credentials.
 
@@ -14,13 +14,13 @@ These are easy to follow steps to push code to github. (for theory of git [visit
    git config --global user.email "shehzaddiqbal@gmail.com"
    ```
 
-1. If you don't have already Sign up for an account at [github.com](https://github.com/signup).
+1. If you don't have already `Sign up` for an account at [github.com](https://github.com/signup).
 
    (First 4 steps are only required one time)
 
 1. Create a new repo on github.com simply by clicking the `New` button and giving it a unique name or visit [github.com/new](https://github.com/new).
 
-1. Keep your repo public and leave everything as it is.
+1. Keep your repo public and leave other options as it is.
 
 1. Copy http link below green `Code` button
 
@@ -69,13 +69,25 @@ These are easy to follow steps to push code to github. (for theory of git [visit
 
 1. Add your digital creations to the repository – your code, documents, images, or anything you create and keep evolving!
 
-## Important
+## Important points
 
 1. Repository is just a folder in Git.
 1. Always make a repo before starting to code.
 1. Keep committing code after finishing ever feature.
 1. Never close your computer without pushing code to Github.
 1. Keep you commit messages relevant to your feature.
+
+## Common problems
+
+1. Not giving space in commands like
+
+   ```bash
+   git commit-m "my message"
+   ```
+
+1. `nothing to commit` error mean your folder with `.git` is either empty or code has already being pushed.
+
+1. `fatal: not a git repository` error comes when you are in folder where git is not initialized i.e there is no `.git` folder.
 
 ## [Learning Git Repo by Shehzad](https://github.com/shehza-d/teaching-git)
 

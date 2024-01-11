@@ -6,19 +6,23 @@
 
 ## Index
 
+- [Index](#index)
 - [What is Git](#what-is-git)
 - [What is GitHub?](#what-is-github)
-- [Features of Git and Github](#features-of-git-and-github)
-- [What is a Repository](#what-is-a-repository)
-- [What are CLI Tools](#what-is-cli-tools)
+	- [Features of Git and Github](#features-of-git-and-github)
+	- [What is a Repository](#what-is-a-repository)
+	- [What are CLI Tools](#what-are-cli-tools)
+- [Git status](#git-status)
 - [Staging files](#staging-files)
 - [Commits](#commits)
 - [Get Started with Git](#get-started-with-git)
 - [Configure Git](#configure-git)
-- [Basic Commands](#basic-commands)
-- [Important Points](#important-points-to-remember)
-- [other Resources](#resources)
-- [Branches](./Branches.md)
+	- [Basic Commands](#basic-commands)
+- [Ignoring files](#ignoring-files)
+- [Important Points to Remember](#important-points-to-remember)
+- [Resources](#resources)
+	- [What's Next?](#whats-next)
+	- [Activity](#activity)
 
 ## What is [Git](https://git-scm.com/)
 
@@ -73,6 +77,12 @@ Types of terminals:
 - PowerShell
 
 Git is a CLI Tool, which we can access with our system terminals. **🔴 All commands will be ran on the root of the project source directory**.
+
+## Git status
+
+```bash
+git status
+```
 
 ## [Staging files](https://git-scm.com/about/staging-area)
 
@@ -202,8 +212,9 @@ To ignore files or folders that you don't want to be tracked or added to the sta
 1. Repository is just a folder in Git.
 1. Always make a repo before starting to code.
 1. Keep committing code after finishing ever feature.
-1. Keep you commit messages relevant to your feature.
 1. Make a Pull Request after your work is done.
+1. Never close your computer without pushing code to Github.
+1. Keep you commit messages relevant to your feature.
 
 ## Resources
 
@@ -211,10 +222,11 @@ To ignore files or folders that you don't want to be tracked or added to the sta
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | 1.  | [Complete Git Course (Basic to Advance) by Sir Zeeshan in Urdu](https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF) |
 | 2.  | [Git - the simple guide Article](https://rogerdudler.github.io/git-guide/)                                                                |
-| 3.  | [GitHub Education's cheat sheet for commonly used git commands.](./git-cheatsheet.pdf)                                                    |
-| 4.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
-| 5.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
-| 6.  | [Fireship teaching Git in 12min](https://youtu.be/HkdAHXoRtos)                                                                            |
+| 3.  | [Visualizing Git Tool](https://git-school.github.io/visualizing-git)                                                                      |
+| 4.  | [GitHub Education's cheat sheet for commonly used git commands.](./git-cheatsheet.pdf)                                                    |
+| 5.  | [Learn Basic Git Commands](https://www.youtube.com/watch?v=USjZcfj8yxE)                                                                   |
+| 6.  | [Learn Basics of GitHub](https://www.youtube.com/watch?v=nhNq2kIvi9s)                                                                     |
+| 7.  | [Fireship teaching Git in 12min](https://youtu.be/HkdAHXoRtos)                                                                            |
 
 ### What's Next?
 

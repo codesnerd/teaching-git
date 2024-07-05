@@ -19,7 +19,7 @@ Github pages provide free and unlimited hosting for static html sites.
 
    ![hosted-link](./images/hosted-link.png)
 
-1. Congratulations! you have hosted your Web page
+1. Congratulations! 🎉 you have successfully hosted your Web page.
 
    You can visit you Web page by clicking the link highlighted in above image.
 
@@ -31,3 +31,5 @@ Github pages provide free and unlimited hosting for static html sites.
 1. And paste your hosted in in Website input (it's better to add description as well) and click save
 
    ![repo description](./images/repo-description.png)
+
+## [More About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)

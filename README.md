@@ -6,23 +6,12 @@
 
 ## Index
 
-- [Index](#index)
-- [What is Git](#what-is-git)
-- [What is GitHub?](#what-is-github)
-	- [Features of Git and Github](#features-of-git-and-github)
-	- [What is a Repository](#what-is-a-repository)
-	- [What are CLI Tools](#what-are-cli-tools)
-- [Git status](#git-status)
-- [Staging files](#staging-files)
-- [Commits](#commits)
-- [Get Started with Git](#get-started-with-git)
-- [Configure Git](#configure-git)
-	- [Basic Commands](#basic-commands)
-- [Ignoring files](#ignoring-files)
-- [Important Points to Remember](#important-points-to-remember)
-- [Resources](#resources)
-	- [What's Next?](#whats-next)
-	- [Activity](#activity)
+- [To send changes to your remote repository](#to-send-changes-to-your-remote-repository)
+	- [Ignoring files](#ignoring-files)
+	- [Important Points to Remember](#important-points-to-remember)
+	- [Resources](#resources)
+		- [What's Next?](#whats-next)
+		- [Activity](#activity)
 
 ## What is [Git](https://git-scm.com/)
 
@@ -78,7 +67,9 @@ Types of terminals:
 
 Git is a CLI Tool, which we can access with our system terminals. **🔴 All commands will be ran on the root of the project source directory**.
 
-## Git status
+### Git status
+
+To check the current status of repo.
 
 ```bash
 git status
@@ -111,8 +102,6 @@ By default, this adds **all the files and folders** inside the project folder to
 ## Commits
 
 `git add` will stage the files that will be part of my commit
-
-tip: make small commits
 
 A **commit** is a snapshot of our code at a particular time, which we are saving to the commit history of our repository. Commit is like page in history book that has its own unique id and can never be changed.
 
@@ -185,7 +174,7 @@ git add .
 git commit -m "my message"
 ```
 
-To send changes to your remote repository
+# To send changes to your remote repository
 
 ```bash
 git push origin main

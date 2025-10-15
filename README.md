@@ -7,7 +7,7 @@ Assuming you all are using Windows 10.
 
 # Configure Git
 
-Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
+Open Terminal (or Git Bash if you're on Windows) and type the commands given below to configure it. Enter your information inside the quotation marks.
 
 ```
 git config --global user.name "Your Name"
@@ -61,7 +61,7 @@ After learning the basic commands, dive deep into the following:
 4. Difference between origin and upstream
 5. Branches
 6. Merge Conflicts
-7. Pull Requests (Although we will work as collaborators instead of contributors but PR is an important concept to learn.)
+7. Pull Requests
 
 # Activity
 
@@ -91,4 +91,4 @@ Follow my GitHub profile to stay updated with my latest projects:
 
 ## 👍 Acknowledgements
 
-- Videos and notes by [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)
+- Videos and Notion notes by [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)

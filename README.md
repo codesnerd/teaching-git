@@ -70,6 +70,28 @@ This copies the contents of the `id_ed25519.pub` file to your clipboard. Make su
 8. Click Add SSH key.
 9. If prompted, confirm access to your account on GitHub.
 
+To [test your SSH connection](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection):
+
+1. Open Terminal.
+2. Run the command:
+
+```
+ssh -T git@github.com
+```
+
+You may see a warning like this:
+
+> The authenticity of host 'github.com (IP ADDRESS)' can't be established.\
+> ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.\
+> Are you sure you want to continue connecting (yes/no)?
+
+3. Verify that the fingerprint in the message you see matches [GitHub's public key fingerprint](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). If it does, then type yes:
+
+> Hi USERNAME! You've successfully authenticated, but GitHub does not
+> provide shell access.
+
+4. Verify that the resulting message contains your username.
+
 #### VOILA! YOU ARE READY TO GO!
 
 # Learn Basic Git Commands

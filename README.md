@@ -1,5 +1,3 @@
-Assuming you all are using Windows 10.
-
 # Get Started
 
 1. Install Git from the [official website](https://git-scm.com/downloads).

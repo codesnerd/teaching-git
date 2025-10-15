@@ -51,6 +51,25 @@ When prompted to "Enter a file in which to save the key", you can press Enter to
 > Enter passphrase (empty for no passphrase): [Type a passphrase]\
 > Enter same passphrase again: [Type passphrase again]
 
+To [add SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account):
+
+1. Copy the SSH public key to your clipboard.
+
+```
+pbcopy < ~/.ssh/id_ed25519.pub
+```
+
+This copies the contents of the `id_ed25519.pub` file to your clipboard. Make sure the filename you specify in the command matches your SSH public key filename.
+
+2. On GitHub, click your profile picture in the upper-right corner, then click Settings.
+3. In the "Access" section of the sidebar, click SSH and GPG keys.
+4. Click New SSH key.
+5. In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal laptop, you might call this key "Personal laptop".
+6. Select the type as "Authentication Key".
+7. In the "Key" field, paste your public key.
+8. Click Add SSH key.
+9. If prompted, confirm access to your account on GitHub.
+
 #### VOILA! YOU ARE READY TO GO!
 
 # Learn Basic Git Commands

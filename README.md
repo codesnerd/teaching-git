@@ -8,9 +8,11 @@ Assuming you all are using Windows 10.
 # Configure Git
 
 Open Git Bash and type the commands given below to configure it. Enter your information inside the quotation marks.
+
 ```
 git config --global user.name "Your Name"
 ```
+
 ```
 git config --global user.email "yourname@example.com"
 ```
@@ -26,6 +28,7 @@ To verify things are working properly, enter these commands and verify that the 
 ```
 git config --get user.name
 ```
+
 ```
 git config --get user.email
 ```
@@ -43,7 +46,6 @@ git config --get user.email
 Video: [Learn Git In 15 Minutes](https://www.youtube.com/watch?v=USjZcfj8yxE)<br />
 Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049)
 
-
 # Learn Basics of GitHub
 
 Video: [Learn GitHub in 20 Minutes](https://www.youtube.com/watch?v=nhNq2kIvi9s)<br />
@@ -54,7 +56,7 @@ Notes: [Notion Notes](https://www.notion.so/zarkom/Introduction-to-GitHub-202af6
 After learning the basic commands, dive deep into the following:
 
 1. Cloning a repo
-2. Forking a repo 
+2. Forking a repo
 3. Difference between cloning and forking
 4. Difference between origin and upstream
 5. Branches
@@ -80,10 +82,13 @@ I have included GitHub Education's Git cheat sheet in the repo that contains som
 ---
 
 ### If you find the repo useful, do support it by giving a star. ⭐
+
 ## 🖋 Author
+
 Follow my GitHub profile to stay updated with my latest projects:
 
 [![Follow codesnerd on GitHub](https://img.shields.io/badge/Connect-codesnerd-blue.svg?logo=Github&longCache=true&style=social&label=Follow)](https://github.com/codesnerd)
 
 ## 👍 Acknowledgements
-* Videos and notes by [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)
+
+- Videos and notes by [Colt Steele](https://www.youtube.com/c/ColtSteeleCode)

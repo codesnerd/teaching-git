@@ -92,7 +92,7 @@ You may see a warning like this:
 
 4. Verify that the resulting message contains your username.
 
-#### VOILA! YOU ARE READY TO GO!
+#### 🎉 VOILA! YOU ARE READY TO GO!
 
 # Learn Basic Git Commands
 

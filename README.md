@@ -35,7 +35,7 @@ git config --get user.email
 
 # Generate and Add SSH Keys to GitHub
 
-To [generate a new SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+### To [generate a new SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
 
 1. Open Terminal.
 2. Run the following command, replacing the email with your GitHub email address.
@@ -51,7 +51,7 @@ When prompted to "Enter a file in which to save the key", you can press Enter to
 > Enter passphrase (empty for no passphrase): [Type a passphrase]\
 > Enter same passphrase again: [Type passphrase again]
 
-To [add SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account):
+### To [add SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account):
 
 1. Copy the SSH public key to your clipboard.
 
@@ -70,7 +70,7 @@ This copies the contents of the `id_ed25519.pub` file to your clipboard. Make su
 8. Click Add SSH key.
 9. If prompted, confirm access to your account on GitHub.
 
-To [test your SSH connection](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection):
+### To [test your SSH connection](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection):
 
 1. Open Terminal.
 2. Run the command:

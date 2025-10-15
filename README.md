@@ -14,7 +14,7 @@ git config --global user.name "Your Name"
 ```
 
 ```
-git config --global user.email "yourname@example.com"
+git config --global user.email "your_email@example.com"
 ```
 
 GitHub recently changed the default branch on new repositories from master to main, change the default branch for Git using this command:
@@ -35,9 +35,21 @@ git config --get user.email
 
 # Generate and Add SSH Keys to GitHub
 
-1. Generate SSH Keys: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-2. Add SSH Keys to GitHub: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-3. Test Your SSH connection: [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/testing-your-ssh-connection)
+To [generate a new SSH key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+
+1. Open Terminal.
+2. Run the following command, replacing the email with your GitHub email address.
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+When prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location (which is`~/.ssh/`).
+
+3. At the prompt, type a secure passphrase (you can press Enter for no passphrase). For more information, see [Working with SSH key passphrases](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases).
+
+> Enter passphrase (empty for no passphrase): [Type a passphrase]\
+> Enter same passphrase again: [Type passphrase again]
 
 #### VOILA! YOU ARE READY TO GO!
 
